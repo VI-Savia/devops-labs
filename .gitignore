@@ -1,0 +1,13 @@
+# Стан Terraform може містити секрети
+*.tfstate
+*.tfstate.*
+.terraform/
+*.tfvars
+# Ключі та сертифікати
+lab6/nodes/id_ed25519
+*.key
+*.crt
+*.kubeconfig
+# Python / Node
+__pycache__/
+node_modules/
